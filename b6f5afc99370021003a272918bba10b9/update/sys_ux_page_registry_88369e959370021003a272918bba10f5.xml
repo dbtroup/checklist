@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>083612dd9330021003a272918bba1061</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app>
+        <path>readiness-checklist</path>
+        <root_macroponent display_value="Header App Shell">9d9670b0c30320109fe6a0f89d40dd97</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 19:23:22</sys_created_on>
+        <sys_id>88369e959370021003a272918bba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Readiness Checklist</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_update_name>sys_ux_page_registry_88369e959370021003a272918bba10f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 19:23:22</sys_updated_on>
+        <title>Readiness Checklist</title>
+    </sys_ux_page_registry>
+</record_update>

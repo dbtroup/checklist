@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Readiness Checklist prototype</description>
+        <device_type>browser</device_type>
+        <hint>Readiness Checklist prototype</hint>
+        <name/>
+        <order/>
+        <roles>x_1067442_rchklist.admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 06:41:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ac767c193b0021003a272918bba10ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Readiness Checklist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_update_name>sys_app_application_5ac767c193b0021003a272918bba10ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 06:41:22</sys_updated_on>
+        <title>Readiness Checklist</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</application>
+        <file_path/>
+        <instance_id>14ed0d2ddb62bdd8ae4c9027c5961940</instance_id>
+        <instance_name>dev213435</instance_name>
+        <name>sys_app_application_5ac767c193b0021003a272918bba10ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="">Custom Applications</category><description>Readiness Checklist prototype</description><device_type>browser</device_type><hint>Readiness Checklist prototype</hint><name/><order/><roles>x_1067442_rchklist.admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-06 06:41:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ac767c193b0021003a272918bba10ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Readiness Checklist</sys_name><sys_overrides/><sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package><sys_policy/><sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope><sys_update_name>sys_app_application_5ac767c193b0021003a272918bba10ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-06 06:41:22</sys_updated_on><title>Readiness Checklist</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-27456819</payload_hash>
+        <record_name>Readiness Checklist</record_name>
+        <reverted_from/>
+        <source>3ef5a38193b0021003a272918bba103b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-06 06:41:22</sys_created_on>
+        <sys_id>12c767c193b0021003a272918bba10b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e127eca210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-06 06:41:22</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>56c767c1acb0021011e629c448a266af</update_guid>
+        <update_guid_history>56c767c1acb0021011e629c448a266af:-27456819</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Readiness Checklist">73d1d57993b0021003a272918bba10e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 03:41:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>b05fb76229cd4d96b257dd2d5f3cc2d1</sys_id>
+        <sys_metadata>5ac767c193b0021003a272918bba10ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Readiness Checklist</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_scope_delete display_value="">4f3d7712cff7449381eec5c6ead3a729</sys_scope_delete>
+        <sys_update_name>sys_app_application_5ac767c193b0021003a272918bba10ac</sys_update_name>
+        <sys_update_version display_value="sys_app_application_5ac767c193b0021003a272918bba10ac">12c767c193b0021003a272918bba10b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 03:41:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

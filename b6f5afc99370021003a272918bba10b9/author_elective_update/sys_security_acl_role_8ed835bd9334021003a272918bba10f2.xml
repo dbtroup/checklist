@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 06:32:07</sys_created_on>
+        <sys_id>8ed835bd9334021003a272918bba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067442_rchklist_checklist_template_2.x_1067442_rchklist.checklist_template_2_user</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_security_acl display_value="x_1067442_rchklist_checklist_template_2">02d835bd9334021003a272918bba10f0</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8ed835bd9334021003a272918bba10f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 06:32:07</sys_updated_on>
+        <sys_user_role display_value="x_1067442_rchklist.checklist_template_2_user" name="x_1067442_rchklist.checklist_template_2_user">0ed835b99334021003a272918bba107a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</application>
+        <file_path/>
+        <instance_id>14ed0d2ddb62bdd8ae4c9027c5961940</instance_id>
+        <instance_name>dev213435</instance_name>
+        <name>sys_security_acl_role_8ed835bd9334021003a272918bba10f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-08 06:32:07</sys_created_on><sys_id>8ed835bd9334021003a272918bba10f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1067442_rchklist_checklist_template_2.x_1067442_rchklist.checklist_template_2_user</sys_name><sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package><sys_policy/><sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope><sys_security_acl display_value="x_1067442_rchklist_checklist_template_2">02d835bd9334021003a272918bba10f0</sys_security_acl><sys_update_name>sys_security_acl_role_8ed835bd9334021003a272918bba10f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-08 06:32:07</sys_updated_on><sys_user_role display_value="x_1067442_rchklist.checklist_template_2_user" name="x_1067442_rchklist.checklist_template_2_user">0ed835b99334021003a272918bba107a</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1270604104</payload_hash>
+        <record_name>x_1067442_rchklist_checklist_template_2.x_1067442_rchklist.checklist_template_2_user</record_name>
+        <reverted_from/>
+        <source>3ef5a38193b0021003a272918bba103b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 06:32:07</sys_created_on>
+        <sys_id>06d835bd9334021003a272918bba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e1cc309d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 06:32:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>4ad835bd70340210a2af98bb09301df4</update_guid>
+        <update_guid_history>4ad835bd70340210a2af98bb09301df4:-1270604104</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1067442_rchklist_checklist_template_2.x_1067442_rchklist.checklist_template_2_">75d2c1c693b0021003a272918bba102b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 21:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>79dfefccac234d86999a623ec08bcbe4</sys_id>
+        <sys_metadata>8ed835bd9334021003a272918bba10f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067442_rchklist_checklist_template_2.x_1067442_rchklist.checklist_template_2_user</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_parent display_value="">02d835bd9334021003a272918bba10f0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_scope_delete display_value="">4f3d7712cff7449381eec5c6ead3a729</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8ed835bd9334021003a272918bba10f2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8ed835bd9334021003a272918bba10f2">06d835bd9334021003a272918bba10f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 21:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

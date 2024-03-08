@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Checklist Template 1">bab8b97d9334021003a272918bba102d</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Checklist Template 1s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1067442_rchklist_checklist_template_1</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1067442_rchklist.checklist_template_1_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 06:31:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6b8b97d9334021003a272918bba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Checklist Template 1s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_update_name>sys_app_module_b6b8b97d9334021003a272918bba1030</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 06:31:37</sys_updated_on>
+        <timeline_page/>
+        <title>Checklist Template 1s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</application>
+        <file_path/>
+        <instance_id>14ed0d2ddb62bdd8ae4c9027c5961940</instance_id>
+        <instance_name>dev213435</instance_name>
+        <name>sys_app_module_b6b8b97d9334021003a272918bba1030</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Checklist Template 1">bab8b97d9334021003a272918bba102d</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Checklist Template 1s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1067442_rchklist_checklist_template_1</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1067442_rchklist.checklist_template_1_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-08 06:31:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b6b8b97d9334021003a272918bba1030</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Checklist Template 1s</sys_name><sys_overrides/><sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package><sys_policy/><sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope><sys_update_name>sys_app_module_b6b8b97d9334021003a272918bba1030</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-08 06:31:37</sys_updated_on><timeline_page/><title>Checklist Template 1s</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>217361754</payload_hash>
+        <record_name>Checklist Template 1s</record_name>
+        <reverted_from/>
+        <source>3ef5a38193b0021003a272918bba103b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 06:31:37</sys_created_on>
+        <sys_id>beb8b1bd9334021003a272918bba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e1cc292ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 06:31:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>beb8b97dc5340210d1c090dcc9b09031</update_guid>
+        <update_guid_history>beb8b97dc5340210d1c090dcc9b09031:217361754</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Checklist Template 1s">bec201c693b0021003a272918bba10ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-08 21:14:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>11b60aaac6a44e8f8a435c40fae79e71</sys_id>
+        <sys_metadata>b6b8b97d9334021003a272918bba1030</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Checklist Template 1s</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_scope_delete display_value="">4f3d7712cff7449381eec5c6ead3a729</sys_scope_delete>
+        <sys_update_name>sys_app_module_b6b8b97d9334021003a272918bba1030</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b6b8b97d9334021003a272918bba1030">beb8b1bd9334021003a272918bba101d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-08 21:14:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
