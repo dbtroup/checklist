@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
-  "checklistId" : "x_1067442_rchklist_checklist_1"
+  "selectedTabIndex" : "",
+  "userPrefs" : "",
+  "fields" : "",
+  "screen" : "",
+  "extraParams" : "",
+  "activityLogs" : "",
+  "views" : "",
+  "query" : "",
+  "sysId" : "9c041a139338021003a272918bba1005",
+  "table" : "readiness event",
+  "eventId" : "event 1"
 }</macroponent_config>
-        <screen display_value="Default">73d65ad59370021003a272918bba105c</screen>
+        <screen display_value="Default">c006499b93f0021003a272918bba10fc</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-06 19:26:21</sys_created_on>
-        <sys_id>33d65ad59370021003a272918bba1060</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-03-12 18:40:52</sys_created_on>
+        <sys_id>9c06499b93f0021003a272918bba10fe</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
-        <sys_update_name>sys_uib_screen_test_values_33d65ad59370021003a272918bba1060</sys_update_name>
+        <sys_update_name>sys_uib_screen_test_values_9c06499b93f0021003a272918bba10fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-12 18:30:09</sys_updated_on>
+        <sys_updated_on>2024-03-13 06:09:12</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
