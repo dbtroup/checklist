@@ -272,8 +272,8 @@
       "items" : [ ],
       "styles" : null
     }, {
-      "elementId" : "stylized_text_2",
-      "elementLabel" : "Stylized text 2",
+      "elementId" : "event_id",
+      "elementLabel" : "Event_Id",
       "propertyValues" : {
         "css" : {
           "type" : "JSON_LITERAL",
@@ -311,7 +311,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"stylized_text_2","styles":{"font-size":"1.5rem"}}],
+        "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"event_id","styles":{"font-size":"1.5rem"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"row","gap":"var(--now-static-space--md)","align-items":"center"},
@@ -406,8 +406,8 @@
       "items" : [ ],
       "styles" : null
     }, {
-      "elementId" : "stylized_text_4",
-      "elementLabel" : "Stylized text 4",
+      "elementId" : "state",
+      "elementLabel" : "State",
       "propertyValues" : {
         "css" : {
           "type" : "JSON_LITERAL",
@@ -445,7 +445,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_3","styles":{}},{"element_id":"stylized_text_4","styles":{"font-size":"1.5rem","justify-content":"center"}}],
+        "items" : [{"element_id":"stylized_text_3","styles":{}},{"element_id":"state","styles":{"font-size":"1.5rem","justify-content":"center"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"row","gap":"var(--now-static-space--md)","align-items":"center"},
@@ -540,8 +540,8 @@
       "items" : [ ],
       "styles" : null
     }, {
-      "elementId" : "stylized_text_6",
-      "elementLabel" : "Stylized text 6",
+      "elementId" : "checklist_id",
+      "elementLabel" : "Checklist_Id",
       "propertyValues" : {
         "css" : {
           "type" : "JSON_LITERAL",
@@ -579,7 +579,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_5","styles":{}},{"element_id":"stylized_text_6","styles":{"font-size":"1.5rem","justify-content":"center"}}],
+        "items" : [{"element_id":"stylized_text_5","styles":{}},{"element_id":"checklist_id","styles":{"font-size":"1.5rem","justify-content":"center"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"row","gap":"var(--now-static-space--md)","align-items":"center"},
@@ -674,8 +674,8 @@
       "items" : [ ],
       "styles" : null
     }, {
-      "elementId" : "stylized_text_8",
-      "elementLabel" : "Stylized text 8",
+      "elementId" : "event_number",
+      "elementLabel" : "Event_Number",
       "propertyValues" : {
         "css" : {
           "type" : "JSON_LITERAL",
@@ -713,7 +713,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_7","styles":{}},{"element_id":"stylized_text_8","styles":{"font-size":"1.5rem","justify-content":"center"}}],
+        "items" : [{"element_id":"stylized_text_7","styles":{}},{"element_id":"event_number","styles":{"font-size":"1.5rem","justify-content":"center"}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"row","gap":"var(--now-static-space--md)","align-items":"center"},
@@ -733,8 +733,8 @@
   "items" : [ ],
   "styles" : null
 }, {
-  "elementId" : "button_1",
-  "elementLabel" : "Button 1",
+  "elementId" : "checklist_button",
+  "elementLabel" : "Checklist_Button",
   "propertyValues" : {
     "size" : {
       "type" : "JSON_LITERAL",
@@ -867,7 +867,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"container_1","styles":{"width":"100%"}},{"element_id":"container_2","styles":{"width":"100%"}},{"element_id":"container_3","styles":{"width":"100%"}},{"element_id":"container_4","styles":{"width":"100%"}},{"element_id":"container_5","styles":{"width":"100%"}},{"element_id":"button_1","styles":{}}],
+    "items" : [{"element_id":"container_1","styles":{"width":"100%"}},{"element_id":"container_2","styles":{"width":"100%"}},{"element_id":"container_3","styles":{"width":"100%"}},{"element_id":"container_4","styles":{"width":"100%"}},{"element_id":"container_5","styles":{"width":"100%"}},{"element_id":"checklist_button","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -1036,14 +1036,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-12 18:40:52</sys_created_on>
         <sys_id>0c06499b93f0021003a272918bba10f9</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
         <sys_update_name>sys_ux_macroponent_0c06499b93f0021003a272918bba10f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-14 17:49:23</sys_updated_on>
+        <sys_updated_on>2024-03-15 16:01:52</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0c06499b93f0021003a272918bba10f9"/>
 </record_update>

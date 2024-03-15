@@ -10,14 +10,13 @@
         <messages/>
         <name>checklistExists</name>
         <order/>
-        <script><![CDATA[function checklistExists() {
+        <script><![CDATA[function checklistExists(callback) {
    //Type appropriate comment here, and begin script below
 	
 	var checklist = new GlideAjax('checklist');
-	checklist.addParam('checklist_id', '');
-	checklist.addParam('event_id', '');
-	
-	return false;
+	checklist.addParam('checklist_id', g_form.getFormElement('checklist_id').text());
+	checklist.addParam('event_id', g_form.getUniqueValue());
+	checklist.getXMLAnswer(callback);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -25,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb5f9ffb9370021003a272918bba1056</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>checklistExists</sys_name>
         <sys_overrides/>
         <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
@@ -33,7 +32,7 @@
         <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
         <sys_update_name>sys_script_client_bb5f9ffb9370021003a272918bba1056</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-15 02:48:34</sys_updated_on>
+        <sys_updated_on>2024-03-15 17:33:49</sys_updated_on>
         <table/>
         <type/>
         <ui_type>10</ui_type>

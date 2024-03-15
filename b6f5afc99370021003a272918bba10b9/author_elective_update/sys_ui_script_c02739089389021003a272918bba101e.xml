@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description>Create a Checklist from a template</description>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1067442_rchklist.createChecklist</name>
+        <script><![CDATA[var x_1067442_rchklist = x_1067442_rchklist || {};
+
+x_1067442_rchklist.createChecklist = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_1067442_rchklist.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_1067442_rchklist.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "createChecklist"
+	};
+})();
+]]></script>
+        <script_name>createChecklist</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-15 06:12:18</sys_created_on>
+        <sys_id>c02739089389021003a272918bba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067442_rchklist.createChecklist</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_update_name>sys_ui_script_c02739089389021003a272918bba101e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-15 06:12:18</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</application>
+        <file_path/>
+        <instance_id>14ed0d2ddb62bdd8ae4c9027c5961940</instance_id>
+        <instance_name>dev213435</instance_name>
+        <name>sys_ui_script_c02739089389021003a272918bba101e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description&gt;Create a Checklist from a template&lt;/description&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_1067442_rchklist.createChecklist&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_1067442_rchklist = x_1067442_rchklist || {};
+
+x_1067442_rchklist.createChecklist = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_1067442_rchklist.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_1067442_rchklist.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "createChecklist"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;createChecklist&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-15 06:12:18&lt;/sys_created_on&gt;&lt;sys_id&gt;c02739089389021003a272918bba101e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1067442_rchklist.createChecklist&lt;/sys_name&gt;&lt;sys_package display_value="Readiness Checklist" source="x_1067442_rchklist"&gt;b6f5afc99370021003a272918bba10b9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Readiness Checklist"&gt;b6f5afc99370021003a272918bba10b9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_c02739089389021003a272918bba101e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-15 06:12:18&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1232138597</payload_hash>
+        <record_name>x_1067442_rchklist.createChecklist</record_name>
+        <reverted_from/>
+        <source>c3d8850e93b0021003a272918bba10ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-15 06:12:18</sys_created_on>
+        <sys_id>4c777d089389021003a272918bba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e40bd68a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-15 06:12:18</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>80777d0889890210911d2d8cd2acd90a</update_guid>
+        <update_guid_history>80777d0889890210911d2d8cd2acd90a:1232138597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-15 16:09:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>01b8bb24c688438880adcc4017455240</sys_id>
+        <sys_metadata>c02739089389021003a272918bba101e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067442_rchklist.createChecklist</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_scope_delete display_value="">4f3d7712cff7449381eec5c6ead3a729</sys_scope_delete>
+        <sys_update_name>sys_ui_script_c02739089389021003a272918bba101e</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_c02739089389021003a272918bba101e">4c777d089389021003a272918bba100a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-15 16:09:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
