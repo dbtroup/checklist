@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="760923399309021003a272918bba1027" label="Checklist Template Lookup" max_length="40" name="x_1067442_rchklist_checklist_template_lookup" type="collection">
+        <element label="Checklist Id" max_length="80" name="checklist_id" type="table_name"/>
+        <element label="Template Id" max_length="80" name="template_id" type="table_name"/>
+    </element>
+</database>

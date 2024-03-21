@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6366c98a93b0021003a272918bba10d8" extends="x_1067442_rchklist_base_checklist" label="Checklist Instance" max_length="40" name="x_1067442_rchklist_checklist_instance" type="collection">
+    <element db_object_id="48998f6193c9021003a272918bba10dc" extends="x_1067442_rchklist_base_checklist" label="Checklist Instance" max_length="40" name="x_1067442_rchklist_checklist_instance" type="collection">
         <element label="Event Id" max_length="40" name="event_id" type="integer"/>
     </element>
 </database>

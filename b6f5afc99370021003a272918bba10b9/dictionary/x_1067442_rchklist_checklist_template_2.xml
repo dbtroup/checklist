@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="75e9a3399309021003a272918bba10fb" extends="x_1067442_rchklist_checklist_template" label="Checklist Template 2" max_length="40" name="x_1067442_rchklist_checklist_template_2" type="collection"/>
+</database>
