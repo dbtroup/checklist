@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Readiness Events">25a0357f9345021003a272918bba10de</app_config>
+        <description/>
+        <extension_point/>
+        <fields>eventId</fields>
+        <icon/>
+        <name>Readiness Checklist</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>readiness-checklist</route_type>
+        <screen_type display_value="Readiness Checklist">8cf0c67f9385021003a272918bba10f6</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 22:31:02</sys_created_on>
+        <sys_id>88f0c6bf9385021003a272918bba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Readiness Checklist</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_update_name>sys_ux_app_route_88f0c6bf9385021003a272918bba1044</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 22:31:02</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=88f0c6bf9385021003a272918bba1044"/>
+</record_update>

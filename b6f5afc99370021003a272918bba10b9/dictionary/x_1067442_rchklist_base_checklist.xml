@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6ff4c94a93b0021003a272918bba1037" label="Base Checklist" max_length="40" name="x_1067442_rchklist_base_checklist" type="collection">
-        <element default="&quot; &quot;" label="Answer" max_length="50" name="answer" type="string_full_utf8"/>
-        <element default="&quot; &quot;" label="Comment" max_length="100" name="comment" type="string"/>
+        <element label="Answer" max_length="50" name="answer" type="string"/>
+        <element label="Comment" max_length="100" name="comment" type="string"/>
         <element default="True" label="Is Question" max_length="40" name="is_question" type="boolean"/>
         <element label="Line Number" max_length="40" name="line_number" type="integer"/>
         <element label="Question" max_length="100" name="question" type="string"/>

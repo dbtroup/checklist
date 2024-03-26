@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function createNewCheckList(callback) {
 	var ceateCheckList = new GladeAjax('createNewChecklist');
-	createCheckList.addParam('checklist_id', g_form.getFormElement('checklist_id').text());
+	createCheckList.addParam('checklist_type', g_form.getFormElement('checklist_type').text());
 	createChecklist.addParam('event_id', g_form.getUniqueValue());
 	createChecklist.getXMLAnswer(callback);
 }]]></script>
@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4a28e806930d021003a272918bba10de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>createNewChecklist</sys_name>
         <sys_overrides/>
         <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
         <sys_update_name>sys_script_client_4a28e806930d021003a272918bba10de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-21 05:41:13</sys_updated_on>
+        <sys_updated_on>2024-03-26 15:17:10</sys_updated_on>
         <table/>
         <type/>
         <ui_type>10</ui_type>

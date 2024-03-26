@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2a89ddfd93b0021003a272918bba10fa" label="Readiness Event" max_length="40" name="x_1067442_rchklist_readiness_event" type="collection">
-        <element label="Checklist Id" max_length="40" name="checklist_id" type="table_name"/>
-        <element label="Name" max_length="100" name="name" type="string_full_utf8"/>
+        <element label="Checklist Type" max_length="255" name="checklist_type" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="State" max_length="255" name="state" type="string_full_utf8"/>
+        <element label="State" max_length="255" name="state" type="string"/>
     </element>
 </database>

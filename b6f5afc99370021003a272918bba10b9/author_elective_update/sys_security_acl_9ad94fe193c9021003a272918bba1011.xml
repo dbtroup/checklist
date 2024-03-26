@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1067442_rchklist_checklist_instance</description>
+        <name>x_1067442_rchklist_checklist_instance</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 04:03:15</sys_created_on>
+        <sys_id>9ad94fe193c9021003a272918bba1011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067442_rchklist_checklist_instance</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_update_name>sys_security_acl_9ad94fe193c9021003a272918bba1011</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 04:03:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</application>
+        <file_path/>
+        <instance_id>14ed0d2ddb62bdd8ae4c9027c5961940</instance_id>
+        <instance_name>dev213435</instance_name>
+        <name>sys_security_acl_9ad94fe193c9021003a272918bba1011</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1067442_rchklist_checklist_instance</description><name>x_1067442_rchklist_checklist_instance</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 04:03:15</sys_created_on><sys_id>9ad94fe193c9021003a272918bba1011</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1067442_rchklist_checklist_instance</sys_name><sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package><sys_policy/><sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope><sys_update_name>sys_security_acl_9ad94fe193c9021003a272918bba1011</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 04:03:15</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-637303985</payload_hash>
+        <record_name>x_1067442_rchklist_checklist_instance</record_name>
+        <reverted_from/>
+        <source>c3d8850e93b0021003a272918bba10ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 04:03:15</sys_created_on>
+        <sys_id>12d94fe193c9021003a272918bba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5a070cbe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 04:03:15</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>56d94fe1d6c90210071f95e71fa75513</update_guid>
+        <update_guid_history>56d94fe1d6c90210071f95e71fa75513:-637303985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-26 14:58:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>15a4fef1b43b49af821c6360ff4496e9</sys_id>
+        <sys_metadata>9ad94fe193c9021003a272918bba1011</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1067442_rchklist_checklist_instance</sys_name>
+        <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
+        <sys_parent display_value="">22d94fe193c9021003a272918bba101d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
+        <sys_scope_delete display_value="">4f3d7712cff7449381eec5c6ead3a729</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9ad94fe193c9021003a272918bba1011</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9ad94fe193c9021003a272918bba1011">12d94fe193c9021003a272918bba1014</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 14:58:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

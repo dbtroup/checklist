@@ -37,7 +37,7 @@
     },
     "maxColumns" : {
       "type" : "JSON_LITERAL",
-      "value" : null
+      "value" : ""
     },
     "limit" : {
       "type" : "JSON_LITERAL",
@@ -56,10 +56,9 @@
       "value" : false
     },
     "table" : {
-      "type" : "CONTEXT_BINDING",
+      "type" : "DATA_OUTPUT_BINDING",
       "binding" : {
-        "address" : [ "checklistId" ],
-        "category" : "props"
+        "address" : [ "gliderecord_collection_query_1" ]
       }
     },
     "hideHighlightedValues" : {
@@ -113,7 +112,7 @@
       "type" : "TRANSLATION_LITERAL",
       "value" : {
         "code" : null,
-        "message" : "All Active Tasks",
+        "message" : "Checklist",
         "comment" : ""
       }
     },
@@ -166,9 +165,126 @@
   "isNonDestructive" : false,
   "items" : [ ],
   "styles" : null
+}, {
+  "elementId" : "heading_1",
+  "elementLabel" : "Heading 1",
+  "propertyValues" : {
+    "hasNoMargin" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "level" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "header-primary"
+    },
+    "wontWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Readiness Checklist",
+        "comment" : ""
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "21f155c65310101024e5ddeeff7b1210",
+    "type" : "GRAPHQL"
+  },
+  "dependencies" : { },
+  "elementId" : "gliderecord_collection_query_1",
+  "elementLabel" : "GlideRecord Collection Query 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_1067442_rchklist_checklist"
+    },
+    "encodedQuery" : {
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "event_id="
+          }, {
+            "type" : "CONTEXT_BINDING",
+            "binding" : {
+              "address" : [ "eventId" ],
+              "category" : "props"
+            }
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
+    },
+    "returnFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "question,is_question,event_id,answer,line_number,comment"
+    },
+    "orderBy" : {
+      "type" : "JSON_LITERAL",
+      "value" : "line_number"
+    },
+    "sortType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "asc"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1000"
+    },
+    "offset" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "queryCategory" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "returnRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "returnTableMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "returnFieldMetadata" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
         <description/>
         <dispatched_events/>
         <ext_controller_dep/>
@@ -182,7 +298,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"list__simple_1","styles":{}}],
+    "items" : [{"element_id":"heading_1","styles":{}},{"element_id":"list__simple_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -195,6 +311,18 @@
         <name>Default</name>
         <output_prop_mapping/>
         <props>[ {
+  "name" : "eventId",
+  "label" : "eventId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
   "name" : "checklistId",
   "label" : "checklistId",
   "fieldType" : "string",
@@ -208,7 +336,10 @@
   "disabled" : false
 } ]</props>
         <required_translations>[ {
-  "message" : "All Active Tasks",
+  "message" : "Checklist",
+  "comment" : ""
+}, {
+  "message" : "Readiness Checklist",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -220,14 +351,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-06 19:26:21</sys_created_on>
         <sys_id>33d692959370021003a272918bba10da</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Readiness Checklist" source="x_1067442_rchklist">b6f5afc99370021003a272918bba10b9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Readiness Checklist">b6f5afc99370021003a272918bba10b9</sys_scope>
         <sys_update_name>sys_ux_macroponent_33d692959370021003a272918bba10da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-12 18:28:38</sys_updated_on>
+        <sys_updated_on>2024-03-26 19:08:38</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=33d692959370021003a272918bba10da"/>
 </record_update>
